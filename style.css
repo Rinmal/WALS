@@ -6,14 +6,12 @@
 
 a{
   text-decoration: none;
-  color: #fafafa;
-}
-h1{
-  font-size: 64px;
 }
 
 h2{
   font-size: 32px;
+  padding-top: 90px;
+  text-align: center;
 }
 
 h3{
@@ -55,6 +53,10 @@ header{
   display: inline-block;
 }
 
+.nav-list-item > a{
+  color: #fafafa;
+}
+
 .main-v{
   width: 100%;
   height: 650px;
@@ -66,6 +68,7 @@ header{
 }
 
 .mv-title{
+  font-size: 64px;
   padding-top: 200px;
 }
 
@@ -78,15 +81,9 @@ header{
   width: 100%;
   background-color: #eceff1;
   color: #000000;
-  text-align: center;
 }
 
-.p-title{
-  padding-top: 90px;
-  position: relative;
-}
-
-.p-title::after{
+.title::after{
    content: "";
    display: block;
    width: 70px;
@@ -98,8 +95,9 @@ header{
    left: 10px;
 }
 
-.p-text{
+.text{
   margin-top: 30px;
+  text-align: center;
 }
 
 .contents{
@@ -149,6 +147,134 @@ header{
 
 .img6{
   background-image: url(img/webcamp-mother.png)
+}
+
+.feature{
+  width: 100%;
+  color: #000000;
+  text-align: center;
+}
+
+.strengths{
+  width: 980px;
+  margin: 0 auto;
+  padding: 30px 0 90px 0;
+  display: flex;
+}
+
+.strength{
+  width: 320px;
+  margin-right: 10px;
+}
+
+.strength:last-child{
+  margin-right: 0;
+}
+
+.icon{
+  font-size: 60px;
+  padding: 15px 0;
+}
+
+.str-title{
+  padding: 10px 0;
+}
+
+.str-text{
+  font-size: 16px;
+  text-align: left;
+}
+
+.profile{
+  width: 100%;
+  background-color: #eceff1;
+  color: #000000;
+}
+
+.my-profile{
+  width: 1024px;
+  margin: 0 auto;
+  padding: 30px 0 90px;
+  display: flex;
+}
+
+.pr-left{
+  width: 512px;
+}
+
+.my-icon{
+  background-image: url(img/my-icon.jpg);
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.pr-right{
+  width: 512px;
+}
+
+.detail-title{
+  padding-bottom: 5px;
+}
+
+.detail-text{
+  padding-bottom: 20px;
+}
+
+.contact{
+  width: 100%;
+  color: #000000;
+}
+
+.contact-way{
+  width: 800px;
+  margin: 0 auto;
+  padding: 30px 0 90px;
+  display: flex;
+}
+
+.way-left{
+  width: 400px;
+}
+
+.infomation{
+  width: 130px;
+  margin: 0 auto;
+}
+
+.infomation > a{
+  color: #000000;
+}
+
+.info-title{
+  margin:20px 0 5px;
+}
+
+.info-title:first-child{
+  margin-top: 0;
+}
+
+.link{
+  text-decoration: underline;
+}
+
+.way-right{
+  width: 400px;
+}
+
+.sns{
+  width: 170px;
+  margin: 0 auto;
+}
+
+.sns-icon{
+  font-size: 46px;
+  padding-right: 20px;
+}
+
+.sns-icon:last-child{
+  padding-right: 0;
 }
 
 footer{
